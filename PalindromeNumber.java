@@ -1,4 +1,12 @@
 public class Solution {
+
+	/*
+	
+	Palindrome Number
+
+	Determine whether an integer is a palindrome. Do this without extra space.
+	*/
+
     public boolean isPalindrome(int x) {
         String num = String.valueOf(x);
         return  new StringBuffer(num).reverse().toString().equalsIgnoreCase(num);
