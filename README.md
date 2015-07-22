@@ -16,6 +16,6 @@ The array may contain multiple peaks, in that case return the index to any one o
 You may imagine that num[-1] = num[n] = -∞.
 For example, in array [1, 2, 3, 1], 3 is a peak element and your function should return the index number 2.
 
-###`E`Power of Two  
+##`E`Power of Two  
 Given an integer, write a function to determine if it is a power of two.
 
