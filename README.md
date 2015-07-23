@@ -19,3 +19,11 @@ For example, in array [1, 2, 3, 1], 3 is a peak element and your function should
 ##`E`Power of Two  
 Given an integer, write a function to determine if it is a power of two.
 
+##`M`Reverse Words in a String
+Given an input string, reverse the string word by word. 
+
+For example,
+ Given s = "the sky is blue",
+ return "blue is sky the". 
+
+
