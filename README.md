@@ -116,3 +116,9 @@ For the purpose of this problem, assume that your function returns 0 when the re
 
 Update (2014-11-10):
 Test cases had been added to test the overflow behavior.
+
+
+#`E`Majority Element
+Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+
+You may assume that the array is non-empty and the majority element always exist in the array
