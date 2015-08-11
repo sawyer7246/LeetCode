@@ -1,11 +1,11 @@
- ##Rotate Image 
+##Rotate Image 
 
-	You are given an n x n 2D matrix representing an image.
+You are given an n x n 2D matrix representing an image.
 
-	Rotate the image by 90 degrees (clockwise).
+Rotate the image by 90 degrees (clockwise).
 
-	Follow up:
-	Could you do this in-place?
+Follow up:
+Could you do this in-place?
 
 ---
 ##解题思想
