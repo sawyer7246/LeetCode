@@ -163,3 +163,9 @@ For example,
  Given input array nums = [1,1,2], 
 
 Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length. 
+
+#`E`Delete Node in a Linked List 
+
+Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
+
+Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node with value 3, the linked list should become 1 -> 2 -> 4 after calling your function.
