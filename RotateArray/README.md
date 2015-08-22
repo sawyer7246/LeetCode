@@ -9,7 +9,19 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 ---
 ##解题思想
 ###想法1
-1.找到规则：
+1. 找到规则：用相同len的数组保存复制滑动的数据，循环覆盖数字。
+	
+2. 	循环步骤
+	保存到temp数组中。
+	如果i<k，就取源数组后面的覆盖。
+	如果i>=k，就取新数组的数字，覆盖。
+
+3. 时间复杂度为 0(n) , 空间复杂度为o(n).
+
+##Summary
+奇怪的问题，为啥k可以大于源数组本身的长度，还shift个毛啊，不是说好从右开始k steps。
+醉了。
+
 
 
 
