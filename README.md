@@ -180,3 +180,7 @@ Note:
 Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
 
 #`M` Largest Number
+
+#Maximum Depth of Binary Tree My Submissions Question Solution 
+Total Accepted: 89606 Total Submissions: 196705 Difficulty: Easy
+Given a binary tree, find its maximum depth.
