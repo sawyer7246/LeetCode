@@ -11,9 +11,9 @@ Given an array of integers, find if the array contains any duplicates. Your func
 
 ##`M`Find Peak Element   
 A peak element is an element that is greater than its neighbors.
-Given an input array where num[i] ≠ num[i+1], find a peak element and return its index.
+Given an input array where num[i] 鈮� num[i+1], find a peak element and return its index.
 The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
-You may imagine that num[-1] = num[n] = -∞.
+You may imagine that num[-1] = num[n] = -鈭�.
 For example, in array [1, 2, 3, 1], 3 is a peak element and your function should return the index number 2.
 
 ##`E`Power of Two  
@@ -35,7 +35,7 @@ Y   I   R
 And then read line by line: "PAHNAPLSIIGYIR"
 Write the code that will take a string and make this conversion given a number of rows:
 
-string convert(string text, int nRows);。
+string convert(string text, int nRows);銆�
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
 #`E`Two Sum
@@ -119,7 +119,7 @@ Test cases had been added to test the overflow behavior.
 
 
 #`E`Majority Element
-Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+Given an array of size n, find the majority element. The majority element is the element that appears more than 鈱� n/2 鈱� times.
 
 You may assume that the array is non-empty and the majority element always exist in the array
 
@@ -184,3 +184,9 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 #Maximum Depth of Binary Tree My Submissions Question Solution 
 Total Accepted: 89606 Total Submissions: 196705 Difficulty: Easy
 Given a binary tree, find its maximum depth.
+
+#`E`Missing Number
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+
+For example,
+Given nums = [0, 1, 3] return 2.
