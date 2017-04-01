@@ -14,9 +14,9 @@ Input: 1
 Output: 0
 Explanation: The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
 
-##解题想法：
-1.理解题目
+## 解题想法：
+1. 理解题目
 	 
-2.解题步骤
-	1.利用2^n-1计算
+2. 解题步骤
+	1. 利用2^n-1计算
 
