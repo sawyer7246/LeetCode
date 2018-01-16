@@ -75,12 +75,24 @@ public class Solution {
 ### 快慢指针
 
 一个快指针每次可以走2步, 一个慢指针每次可以走1步, 那么如果存在循环的话, 就会相遇.
-数学证明
 
-This math is inline $`a^2+b^2=c^2`$.
+```java 
 
-This is on a separate line
+public boolean hasCycle(ListNode head) {
+    if (head == null || head.next == null) {
+        return false;
+    }
+    ListNode slow = head;
+    ListNode fast = head.next;
+    while (slow != fast) {
+        if (fast == null || fast.next == null) {
+            return false;
+        }
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    return true;
+}
 
-```math
-a^2+b^2=c^2
+
 ```
