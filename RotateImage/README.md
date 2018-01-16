@@ -27,12 +27,15 @@ Could you do this in-place?
 
 ```
 初始转换：
+
 	x=i*N+j 
 
 位置转换关系：
+
 	y=(j+1)*N-1-i
 	
 翻译转换：
+
 	m=y/N n=y%N
  
  
