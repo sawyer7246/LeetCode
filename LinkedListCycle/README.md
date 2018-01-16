@@ -77,7 +77,9 @@ public class Solution {
 一个快指针每次可以走2步, 一个慢指针每次可以走1步, 那么如果存在循环的话, 就会相遇.
 数学证明
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-formula1: $$n==x$$
+This math is inline $`a^2+b^2=c^2`$.
 
-formula2: $$n!=x$$
+This is on a separate line
+```math
+a^2+b^2=c^2
+```
