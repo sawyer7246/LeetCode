@@ -8,6 +8,6 @@
 
 ##Timeline
 - `2018-1-16` 
-    1. [LinkedListCycle](./LinkedListCycle)
+    1. [LinkedListCycle](../LinkedListCycle)
 
  
