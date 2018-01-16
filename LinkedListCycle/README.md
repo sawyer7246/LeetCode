@@ -20,7 +20,7 @@ Can you solve it without using extra space?
         Set<ListNode> nodesSeen = new HashSet<>();
         while( head!=null ){
             if(nodesSeen.contains(head)){
-                reutrn true;
+                return true;
             }
             nodesSeen.add(head);
             head = head.next;
