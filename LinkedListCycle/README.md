@@ -74,9 +74,7 @@ public class Solution {
 
 ### 快慢指针
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 一个快指针每次可以走2步, 一个慢指针每次可以走1步, 那么如果存在循环的话, 就会相遇.
 数学证明
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
+
+<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
