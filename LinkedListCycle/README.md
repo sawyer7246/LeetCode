@@ -77,7 +77,7 @@ public class Solution {
 一个快指针每次可以走2步, 一个慢指针每次可以走1步, 那么如果存在循环的话, 就会相遇.
 
 ```java 
- 
+
 public boolean hasCycle(ListNode head) {
     if (head == null || head.next == null) {
         return false;
