@@ -17,7 +17,7 @@ must be a substring, `"pwke"` is a subsequence and not a substring.
 ### 反向查询不重复的值(超时未通过)
 不同于leetcode上的暴力破解, 我的想法是通过HashSet找重复的,然后一旦发现重复的，就从当前位置往回找,直到找到一个不存在重复的, 
 并且在找的时候同时把节点加入外层HashSet, 之后跳出内部循环继续外部循环. 时间复杂度是 `n(O^2)` 
-
+ 
 ```java 
 public static int lengthOfLongestSubstring(String s) {
 		 	if(null == s||"".equals(s))return 0;
