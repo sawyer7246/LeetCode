@@ -29,7 +29,7 @@ DP思想: `动态规划在查找有很多重叠子问题的情况的最优解时
 1. 找到原字符串和反转的字符串的[最大相同字符串](https://en.wikipedia.org/wiki/Longest_common_substring_problem).
 2. 校验这些字符串是否在对应位置字符串的反转.
 
-####1.最大相同字符串
+#### 1.最大相同字符串
 
 例如"ABAB" 和 "BABA":
 ---
