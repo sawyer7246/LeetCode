@@ -16,3 +16,5 @@
 - `2018-1-22` [LongestPalindromicSubstring](./LongestPalindromicSubstring)
 
 - `2018-1-23` [3Sum](./3Sum)
+
+- `2018-1-23` [LongestCommonPrefix](./LongestCommonPrefix)
