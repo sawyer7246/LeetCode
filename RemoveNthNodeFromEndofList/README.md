@@ -33,46 +33,24 @@ Given n will always be valid. Try to do this in one pass.
 
 ```java 
 class Solution {
-    public String longestPalindrome(String s) {
-		if (null == s || "".equals(s))
-			return "";
-		if (s.length() == 1)
-			return s;
-		if (s.length() == 2) {
-			if (s.charAt(0) == s.charAt(1)) {
-				return s;
-			} else {
-				return "" + s.charAt(0);
-			}
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+		if (head == null) {
+			return null;
 		}
-		StringBuffer r_s = new StringBuffer();
-		for(int backward = s.length()-1; backward >= 0; backward-- ){
-			r_s.append(s.charAt(backward));
+		ListNode nNode = head;
+		ListNode retNode = head;
+		for (int i = n; i > 0; i--) {
+			nNode = nNode.next;
 		}
-		int[][] mat = new int[s.length()][ s.length()];
-		int len = s.length();
-		int max = 0 ;
-		int i_max = 0;
-		for(int i = 0 ; i < len ; i++ ){
-			char forwardChar = s.charAt(i);
-			for(int k = 0; k < len ; k++ ){
-				char backwardChar = r_s.charAt(k);
-				if(forwardChar == backwardChar){ 
-					if(i== 0 || k==0){
-						mat[i][k] = 1 ;
-						continue;
-					}
-					mat[i][k] = mat[i-1][k-1] + 1;
-					if(((len-1-i == k-mat[i][k]+1)) && (max < mat[i][k])){
-						max = mat[i][k];
-						i_max = i ;
-					}
-				}else{
-					mat[i][k] = 0;
-				}
-			}
+		if( null == nNode){
+			return head.next ;
 		}
-		return  s.substring(i_max-max+1, i_max+1) ;
+		while (nNode.next != null) {
+			retNode = retNode.next;
+			nNode = nNode.next;
+		}
+		retNode.next = retNode.next.next ;
+		return head;
     }
 }
 
