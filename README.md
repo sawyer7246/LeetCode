@@ -20,3 +20,5 @@
 - `2018-1-23` [LongestCommonPrefix](./LongestCommonPrefix)
 
 - `2018-1-27` [LetterCombinationsOfAPhoneNumber](./LetterCombinationsofPhoneNumber)
+
+- `2018-1-29` [RemoveNthNodeFromEndofList](./RemoveNthNodeFromEndofList)
