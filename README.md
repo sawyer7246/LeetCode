@@ -22,3 +22,4 @@
 - `2018-1-27` [LetterCombinationsOfAPhoneNumber](./LetterCombinationsofPhoneNumber)
 
 - `2018-1-29` [RemoveNthNodeFromEndofList](./RemoveNthNodeFromEndofList)
+- `2018-1-29` [ImplementstrStr()](./ImplementstrStr())
