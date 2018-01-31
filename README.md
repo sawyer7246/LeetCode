@@ -24,3 +24,5 @@
 - `2018-1-29` [RemoveNthNodeFromEndofList](./RemoveNthNodeFromEndofList)
 
 - `2018-1-30` [ImplementstrStr()](./ImplementstrStr())
+
+- `2018-1-31` [ValidParentheses](./ValidParentheses)
