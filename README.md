@@ -26,3 +26,5 @@
 - `2018-1-30` [ImplementstrStr()](./ImplementstrStr())
 
 - `2018-1-31` [ValidParentheses](./ValidParentheses)
+
+- `2018-2-1` [MergeTwoSortedLists](./MergeTwoSortedLists)
