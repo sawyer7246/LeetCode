@@ -5,6 +5,7 @@
 2. Part of the problems was finished long time ago, so, there were **no** translation.
 3. After `Jan 16th.`, all solutions should have chinese version.
 4. Currently, all problems come form the [Leetcode](https://leetcode.com/problems)
+5. One question from Alibaba's internship test.
 
 ## Timeline
 - `2018-1-16` [LinkedListCycle](./LinkedListCycle)
@@ -28,3 +29,5 @@
 - `2018-1-31` [ValidParentheses](./ValidParentheses)
 
 - `2018-2-1` [MergeTwoSortedLists](./MergeTwoSortedLists)
+
+- `2018-3-16` [FindValidRepay](./FindValidRepay)
